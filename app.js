@@ -21,7 +21,7 @@ config({
 
 app.use(
   cors({
-    origin:`http://localhost:5173`,
+    origin:`https://primevault.netlify.app`,
     methods: ["POST", "GET", "PUT", "DELETE"],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
